@@ -15,7 +15,7 @@ func _ready():
 	setTargetLanguage(targetLanguage)
 	#addTranslator("deepl") # Doesn't work anymore :(
 	addTranslator("google")
-	addTranslator("papago")
+	#addTranslator("papago")
 	addTranslator("googlebatch")
 	setShouldTranslate(shouldBeTranslating)
 	
